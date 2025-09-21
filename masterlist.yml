@@ -1,978 +1,976 @@
 prelude: null
 groups:
-- name: UF Ordered
-  after:
-  - default
+- name: "UF Ordered"
+  after:
+  - "default"
 plugins:
-- name: FalloutNV.esm
-  group: UF Ordered
-- name: DeadMoney.esm
-  group: UF Ordered
-  after:
-  - FalloutNV.esm
-- name: HonestHearts.esm
-  group: UF Ordered
-  after:
-  - DeadMoney.esm
-- name: OldWorldBlues.esm
-  group: UF Ordered
-  after:
-  - HonestHearts.esm
-- name: LonesomeRoad.esm
-  group: UF Ordered
-  after:
-  - OldWorldBlues.esm
-- name: GunRunnersArsenal.esm
-  group: UF Ordered
-  after:
-  - LonesomeRoad.esm
-- name: Fallout3.esm
-  group: UF Ordered
-  after:
-  - GunRunnersArsenal.esm
-- name: Anchorage.esm
-  group: UF Ordered
-  after:
-  - Fallout3.esm
-- name: ThePitt.esm
-  group: UF Ordered
-  after:
-  - Anchorage.esm
-- name: BrokenSteel.esm
-  group: UF Ordered
-  after:
-  - ThePitt.esm
-- name: PointLookout.esm
-  group: UF Ordered
-  after:
-  - BrokenSteel.esm
-- name: Zeta.esm
-  group: UF Ordered
-  after:
-  - PointLookout.esm
-- name: CaravanPack.esm
-  group: UF Ordered
-  after:
-  - Zeta.esm
-- name: ClassicPack.esm
-  group: UF Ordered
-  after:
-  - CaravanPack.esm
-- name: MercenaryPack.esm
-  group: UF Ordered
-  after:
-  - ClassicPack.esm
-- name: TribalPack.esm
-  group: UF Ordered
-  after:
-  - MercenaryPack.esm
-- name: TaleOfTwoWastelands.esm
-  group: UF Ordered
-  after:
-  - TribalPack.esm
-- name: YUPTTW.esm
-  group: UF Ordered
-  after:
-  - TaleOfTwoWastelands.esm
-- name: TaleOfTwoLandscapes.esm
-  group: UF Ordered
-  after:
-  - YUPTTW.esm
-- name: Landscape Texture Improvements TTW.esm
-  group: UF Ordered
-  after:
-  - TaleOfTwoLandscapes.esm
-- name: NavmeshOverhaul.esm
-  group: UF Ordered
-  after:
-  - Landscape Texture Improvements TTW.esm
-- name: PerformanceOfTheTitans.esm
-  group: UF Ordered
-  after:
-  - NavmeshOverhaul.esm
-- name: Placement Fixes.esm
-  group: UF Ordered
-  after:
-  - PerformanceOfTheTitans.esm
-- name: Follower Formula Redone.esp
-  group: UF Ordered
-  after:
-  - Placement Fixes.esm
-- name: Vanilla Enhancements.esm
-  group: UF Ordered
-  after:
-  - Follower Formula Redone.esp
-- name: DLC Enhancements.esp
-  group: UF Ordered
-  after:
-  - Vanilla Enhancements.esm
-- name: TGDCIO.esm
-  group: UF Ordered
-  after:
-  - DLC Enhancements.esp
-- name: TGMIO.esm
-  group: UF Ordered
-  after:
-  - TGDCIO.esm
-- name: Functional Post Game Ending.esm
-  group: UF Ordered
-  after:
-  - TGMIO.esm
-- name: Goodies.esp
-  group: UF Ordered
-  after:
-  - Functional Post Game Ending.esm
-- name: TLD_Travelers.esm
-  group: UF Ordered
-  after:
-  - Goodies.esp
-- name: Mojave Scenery Overhaul.esm
-  group: UF Ordered
-  after:
-  - TLD_Travelers.esm
-- name: Capital Wasteland Landscape.esp
-  group: UF Ordered
-  after:
-  - Mojave Scenery Overhaul.esm
-- name: FR-IBS.esm
-  group: UF Ordered
-  after:
-  - Capital Wasteland Landscape.esp
-- name: Girdershade Reborn TTW.esm
-  group: UF Ordered
-  after:
-  - FR-IBS.esm
-- name: RRTV_FO3_CapitalWasteland_Hideouts_TTW.esm
-  group: UF Ordered
-  after:
-  - Girdershade Reborn TTW.esm
-- name: AnotherInteriorMod.esm
-  group: UF Ordered
-  after:
-  - RRTV_FO3_CapitalWasteland_Hideouts_TTW.esm
-- name: The Megaton Walkway - TTW.esm
-  group: UF Ordered
-  after:
-  - AnotherInteriorMod.esm
-- name: DCStreet.esm
-  group: UF Ordered
-  after:
-  - The Megaton Walkway - TTW.esm
-- name: SSTImprovedPipeline.esm
-  group: UF Ordered
-  after:
-  - DCStreet.esm
-- name: SSTMonorailTrackFix.esm
-  group: UF Ordered
-  after:
-  - SSTImprovedPipeline.esm
-- name: SSTWastelandDecay.esm
-  group: UF Ordered
-  after:
-  - SSTMonorailTrackFix.esm
-- name: SSTMegatonOutskirts.esm
-  group: UF Ordered
-  after:
-  - SSTWastelandDecay.esm
-- name: SSTShantyArefu.esm
-  group: UF Ordered
-  after:
-  - SSTMegatonOutskirts.esm
-- name: SSTScrapyardServiceBuildings.esm
-  group: UF Ordered
-  after:
-  - SSTShantyArefu.esm
-- name: SSTDCMetropolis.esp
-  group: UF Ordered
-  after:
-  - SSTScrapyardServiceBuildings.esm
-- name: SSTRockbreakersQuarry.esm
-  group: UF Ordered
-  after:
-  - SSTDCMetropolis.esp
-- name: TTW Northern Greenery.esp
-  group: UF Ordered
-  after:
-  - SSTRockbreakersQuarry.esm
-- name: Zion landscape enhanced.esp
-  group: UF Ordered
-  after:
-  - TTW Northern Greenery.esp
-- name: urbanoverhaul.esp
-  group: UF Ordered
-  after:
-  - Zion landscape enhanced.esp
-- name: Lived-In AIO.esm
-  group: UF Ordered
-  after:
-  - urbanoverhaul.esp
-- name: nellisAFBrestored.esp
-  group: UF Ordered
-  after:
-  - Lived-In AIO.esm
-- name: Less Empty Nellis.esp
-  group: UF Ordered
-  after:
-  - nellisAFBrestored.esp
-- name: Lime's Fort Overhaul.esm
-  group: UF Ordered
-  after:
-  - Less Empty Nellis.esp
-- name: Lime's Sniper's Nest.esm
-  group: UF Ordered
-  after:
-  - Lime's Fort Overhaul.esm
-- name: Lime's Old Mormon Fort Overhaul.esm
-  group: UF Ordered
-  after:
-  - Lime's Sniper's Nest.esm
-- name: Fort_Open.esm
-  group: UF Ordered
-  after:
-  - Lime's Old Mormon Fort Overhaul.esm
-- name: HiddenValleyOverhauled.esm
-  group: UF Ordered
-  after:
-  - Fort_Open.esm
-- name: Doctor's House.esm
-  group: UF Ordered
-  after:
-  - HiddenValleyOverhauled.esm
-- name: Interiors Improved - Tops Hotel.esp
-  group: UF Ordered
-  after:
-  - Doctor's House.esm
-- name: LN_BetterBasesKings.esp
-  group: UF Ordered
-  after:
-  - Interiors Improved - Tops Hotel.esp
-- name: The Sink Redesigned TTW.esm
-  group: UF Ordered
-  after:
-  - LN_BetterBasesKings.esp
-- name: GRA_Weapons_Displayed.esm
-  group: UF Ordered
-  after:
-  - The Sink Redesigned TTW.esm
-- name: VanGraffOverhaul.esm
-  group: UF Ordered
-  after:
-  - GRA_Weapons_Displayed.esm
-- name: Vault 21 Unbadene.esm
-  group: UF Ordered
-  after:
-  - VanGraffOverhaul.esm
-- name: Vikki and Vance Improvements.esm
-  group: UF Ordered
-  after:
-  - Vault 21 Unbadene.esm
-- name: Lucky38Overhaul.esp
-  group: UF Ordered
-  after:
-  - Vikki and Vance Improvements.esm
-- name: Simple Freeside Overhaul.esp
-  group: UF Ordered
-  after:
-  - Lucky38Overhaul.esp
-- name: Simple Populated Freeside - Lite - Vanilla.esp
-  group: UF Ordered
-  after:
-  - Simple Freeside Overhaul.esp
-- name: MoreFreesidePassages.esm
-  group: UF Ordered
-  after:
-  - Simple Populated Freeside - Lite - Vanilla.esp
-- name: TheThornOverhauled.esm
-  group: UF Ordered
-  after:
-  - MoreFreesidePassages.esm
-- name: The Town of Vice - A Gomorrah Overhaul.esp
-  group: UF Ordered
-  after:
-  - TheThornOverhauled.esm
-- name: vault22FloralOverhaul.esm
-  group: UF Ordered
-  after:
-  - The Town of Vice - A Gomorrah Overhaul.esp
-- name: Home and Safehouse Tweaks.esm
-  group: UF Ordered
-  after:
-  - vault22FloralOverhaul.esm
-- name: Little More Lamplight.esp
-  group: UF Ordered
-  after:
-  - Home and Safehouse Tweaks.esm
-- name: Simple Open Strip.esm
-  group: UF Ordered
-  after:
-  - Little More Lamplight.esp
-- name: The Strip - 2023 Lite.esm
-  group: UF Ordered
-  after:
-  - Simple Open Strip.esm
-- name: StripCinematicLighting.esp
-  group: UF Ordered
-  after:
-  - The Strip - 2023 Lite.esm
-- name: StripCinematic_2023Lite.esp
-  group: UF Ordered
-  after:
-  - StripCinematicLighting.esp
-- name: SandyRoads.esp
-  group: UF Ordered
-  after:
-  - StripCinematic_2023Lite.esp
-- name: SomeguySeries.esm
-  group: UF Ordered
-  after:
-  - SandyRoads.esp
-- name: NewVegasBounties.esm
-  group: UF Ordered
-  after:
-  - SomeguySeries.esm
-- name: NewVegasKiller.esm
-  group: UF Ordered
-  after:
-  - NewVegasBounties.esm
-- name: A Trail of Crumbs.esm
-  group: UF Ordered
-  after:
-  - NewVegasKiller.esm
-- name: DryWellsReloaded.esm
-  group: UF Ordered
-  after:
-  - A Trail of Crumbs.esm
-- name: havasublues.esm
-  group: UF Ordered
-  after:
-  - DryWellsReloaded.esm
-- name: ZionTrail.esm
-  group: UF Ordered
-  after:
-  - havasublues.esm
-- name: ZionTrail-NV.esp
-  group: UF Ordered
-  after:
-  - ZionTrail.esm
-- name: Point Lookout Reborn.esm
-  group: UF Ordered
-  after:
-  - ZionTrail-NV.esp
-- name: LLPL - Low Level Point Lookout.esm
-  group: UF Ordered
-  after:
-  - Point Lookout Reborn.esm
-- name: RaceToTheBottom.esm
-  group: UF Ordered
-  after:
-  - LLPL - Low Level Point Lookout.esm
-- name: AutumnLeaves.esp
-  group: UF Ordered
-  after:
-  - RaceToTheBottom.esm
-- name: Into The Deep.esm
-  group: UF Ordered
-  after:
-  - AutumnLeaves.esp
-- name: 3DNPCFNVBundle.esm
-  group: UF Ordered
-  after:
-  - Into The Deep.esm
-- name: Hope Lies - AiO Improved.esp
-  group: UF Ordered
-  after:
-  - 3DNPCFNVBundle.esm
-- name: 3DNPCEdits.esp
-  group: UF Ordered
-  after:
-  - Hope Lies - AiO Improved.esp
-- name: Sweet 3DNPC NV Tweaks.esp
-  group: UF Ordered
-  after:
-  - 3DNPCEdits.esp
-- name: UncannyValleyResearch.esp
-  group: UF Ordered
-  after:
-  - Sweet 3DNPC NV Tweaks.esp
-- name: AWorldOfPainFO3.esm
-  group: UF Ordered
-  after:
-  - UncannyValleyResearch.esp
-- name: Sweet Pain.esm
-  group: UF Ordered
-  after:
-  - AWorldOfPainFO3.esm
-- name: A World of Pain FO3 Roombound Project.esm
-  group: UF Ordered
-  after:
-  - Sweet Pain.esm
-- name: A World of Pain Revised.esm
-  group: UF Ordered
-  after:
-  - A World of Pain FO3 Roombound Project.esm
-- name: Sweet Pain NV.esm
-  group: UF Ordered
-  after:
-  - A World of Pain Revised.esm
-- name: A World of Pain NV Roombound Project.esm
-  group: UF Ordered
-  after:
-  - Sweet Pain NV.esm
-- name: GRARG.esm
-  group: UF Ordered
-  after:
-  - A World of Pain NV Roombound Project.esm
-- name: EDGE TTW.esm
-  group: UF Ordered
-  after:
-  - GRARG.esm
-- name: DMT _Dead Money Tweaks_.esm
-  group: UF Ordered
-  after:
-  - EDGE TTW.esm
-- name: Big Town Extensions.esm
-  group: UF Ordered
-  after:
-  - DMT _Dead Money Tweaks_.esm
-- name: Reactive Primm.esm
-  group: UF Ordered
-  after:
-  - Big Town Extensions.esm
-- name: MMDD.esm
-  group: UF Ordered
-  after:
-  - Reactive Primm.esm
-- name: Windows of the Mojave v1.2.1.esp
-  group: UF Ordered
-  after:
-  - MMDD.esm
-- name: D.C NPCs.esm
-  group: UF Ordered
-  after:
-  - Windows of the Mojave v1.2.1.esp
-- name: TTWCaravanInDCFixed.esp
-  group: UF Ordered
-  after:
-  - D.C NPCs.esm
-- name: Faction Wasteland Presence.esm
-  group: UF Ordered
-  after:
-  - TTWCaravanInDCFixed.esp
-- name: FO3_Optimization.esm
-  group: UF Ordered
-  after:
-  - Faction Wasteland Presence.esm
-- name: TweaksTTW.esm
-  group: UF Ordered
-  after:
-  - FO3_Optimization.esm
-- name: TTW Reputations.esm
-  group: UF Ordered
-  after:
-  - TweaksTTW.esm
-- name: TTW New Vegas Speech Checks.esm
-  group: UF Ordered
-  after:
-  - TTW Reputations.esm
-- name: Tale of Bi Wastelands.esm
-  group: UF Ordered
-  after:
-  - TTW New Vegas Speech Checks.esm
-- name: AGE - Anchorage Gear Extension.esm
-  group: UF Ordered
-  after:
-  - Tale of Bi Wastelands.esm
-- name: Double Integrated Creation Kit.esp
-  group: UF Ordered
-  after:
-  - AGE - Anchorage Gear Extension.esm
-- name: MegatonHouseTrophies.esp
-  group: UF Ordered
-  after:
-  - Double Integrated Creation Kit.esp
-- name: LincolnDisplay.esp
-  group: UF Ordered
-  after:
-  - MegatonHouseTrophies.esp
-- name: Bobblehead Business.esp
-  group: UF Ordered
-  after:
-  - LincolnDisplay.esp
-- name: FEV.esm
-  group: UF Ordered
-  after:
-  - Bobblehead Business.esp
-- name: Sweet Bounties.esp
-  group: UF Ordered
-  after:
-  - FEV.esm
-- name: Mojave Raiders.esm
-  group: UF Ordered
-  after:
-  - Sweet Bounties.esp
-- name: Mojave Wildlife (FO3-Style + No Chanced).esp
-  group: UF Ordered
-  after:
-  - Mojave Raiders.esm
-- name: Harder New Vegas Strip Access.esm
-  group: UF Ordered
-  after:
-  - Mojave Wildlife (FO3-Style + No Chanced).esp
-- name: Friendly Strip Factions.esm
-  group: UF Ordered
-  after:
-  - Harder New Vegas Strip Access.esm
-- name: Better Brotherhood.esm
-  group: UF Ordered
-  after:
-  - Friendly Strip Factions.esm
-- name: TTW NPC Overhaul.esm
-  group: UF Ordered
-  after:
-  - Better Brotherhood.esm
-- name: BraveNewWorld.esm
-  group: UF Ordered
-  after:
-  - TTW NPC Overhaul.esm
-- name: Banter.esp
-  group: UF Ordered
-  after:
-  - BraveNewWorld.esm
-- name: TTW Dialogue and Interactions Expansion Overhaul.esp
-  group: UF Ordered
-  after:
-  - Banter.esp
-- name: Sierra Madre Suite Windows.esp
-  group: UF Ordered
-  after:
-  - TTW Dialogue and Interactions Expansion Overhaul.esp
-- name: SSTRemasteredQuarries.esm
-  group: UF Ordered
-  after:
-  - Sierra Madre Suite Windows.esp
-- name: FreePostMojave.esm
-  group: UF Ordered
-  after:
-  - SSTRemasteredQuarries.esm
-- name: TTW Skill Book Rebalance.esp
-  group: UF Ordered
-  after:
-  - FreePostMojave.esm
-- name: Bad Touch.esm
-  group: UF Ordered
-  after:
-  - TTW Skill Book Rebalance.esp
-- name: '[RWM]-Complete Added.esp'
-  group: UF Ordered
-  after:
-  - Bad Touch.esm
-- name: LegionRadio.esp
-  group: UF Ordered
-  after:
-  - '[RWM]-Complete Added.esp'
-- name: TTW Music Addition - No RNV.esp
-  group: UF Ordered
-  after:
-  - LegionRadio.esp
-- name: AfterglowNeonIllumination.esp
-  group: UF Ordered
-  after:
-  - TTW Music Addition - No RNV.esp
-- name: ExRB-TTW.esp
-  group: UF Ordered
-  after:
-  - AfterglowNeonIllumination.esp
-- name: Securitrons On Alert.esm
-  group: UF Ordered
-  after:
-  - ExRB-TTW.esp
-- name: Another Creature Add-on.esp
-  group: UF Ordered
-  after:
-  - Securitrons On Alert.esm
-- name: Robot Dog Overhaul TTW.esp
-  group: UF Ordered
-  after:
-  - Another Creature Add-on.esp
-- name: NVMMP.esp
-  group: UF Ordered
-  after:
-  - Robot Dog Overhaul TTW.esp
-- name: Stinger.esp
-  group: UF Ordered
-  after:
-  - NVMMP.esp
-- name: Sweet Consumables.esp
-  group: UF Ordered
-  after:
-  - Stinger.esp
-- name: Aid Addon.esp
-  group: UF Ordered
-  after:
-  - Sweet Consumables.esp
-- name: Vanilla SWEEP.esp
-  group: UF Ordered
-  after:
-  - Aid Addon.esp
-- name: SPARE.esp
-  group: UF Ordered
-  after:
-  - Vanilla SWEEP.esp
-- name: STAR TTW 2.esp
-  group: UF Ordered
-  after:
-  - SPARE.esp
-- name: UF ZT Overhaul.esm
-  group: UF Ordered
-  after:
-  - STAR TTW 2.esp
-- name: OWB Remove player gear.esp
-  group: UF Ordered
-  after:
-  - UF ZT Overhaul.esm
-- name: DC Humbles You.esm
-  group: UF Ordered
-  after:
-  - OWB Remove player gear.esp
-- name: Benny Humbles You and Steals Your Stuff.esp
-  group: UF Ordered
-  after:
-  - DC Humbles You.esm
-- name: Better Weapon Restrictions & Fixes.esm
-  group: UF Ordered
-  after:
-  - Benny Humbles You and Steals Your Stuff.esp
-- name: PointThatSomewhereElse!.esm
-  group: UF Ordered
-  after:
-  - Better Weapon Restrictions & Fixes.esm
-- name: Off Limits.esp
-  group: UF Ordered
-  after:
-  - PointThatSomewhereElse!.esm
-- name: UF Quick Start.esp
-  group: UF Ordered
-  after:
-  - Off Limits.esp
-- name: UF Wasteland Starting Gear DC.esp
-  group: UF Ordered
-  after:
-  - UF Quick Start.esp
-- name: Walking_Inertia.esm
-  group: UF Ordered
-  after:
-  - UF Wasteland Starting Gear DC.esp
-- name: Helmet Overlay.esm
-  group: UF Ordered
-  after:
-  - Walking_Inertia.esm
-- name: Main And Pause Menus Overhaul.esm
-  group: UF Ordered
-  after:
-  - Helmet Overlay.esm
-- name: LowAmmoWarningSounds.esm
-  group: UF Ordered
-  after:
-  - Main And Pause Menus Overhaul.esm
-- name: ATMOS Ambient Overhaul.esp
-  group: UF Ordered
-  after:
-  - LowAmmoWarningSounds.esm
-- name: ATMOS Ambient Overhaul - DLC.esp
-  group: UF Ordered
-  after:
-  - ATMOS Ambient Overhaul.esp
-- name: ATMOS Ambient Overhaul - AWOP Revision.esp
-  group: UF Ordered
-  after:
-  - ATMOS Ambient Overhaul - DLC.esp
-- name: Better Strip View.esp
-  group: UF Ordered
-  after:
-  - ATMOS Ambient Overhaul - AWOP Revision.esp
-- name: Strip Lights Region Fix.esp
-  group: UF Ordered
-  after:
-  - Better Strip View.esp
-- name: Lucky38ExtRemasterNew.esp
-  group: UF Ordered
-  after:
-  - Strip Lights Region Fix.esp
-- name: UF Tutorial.esm
-  group: UF Ordered
-  after:
-  - Lucky38ExtRemasterNew.esp
-- name: TaleOfTwoLandscapesPatch.esp
-  group: UF Ordered
-  after:
-  - UF Tutorial.esm
-- name: UFNM.esm
-  group: UF Ordered
-  after:
-  - TaleOfTwoLandscapesPatch.esp
-- name: UF.esm
-  group: UF Ordered
-  after:
-  - UFNM.esm
-- name: The Mod Configuration Menu.esp
-  group: UF Ordered
-  after:
-  - UF.esm
-- name: TTWMoreMapMarkers.esp
-  group: UF Ordered
-  after:
-  - The Mod Configuration Menu.esp
-- name: Bypass Tools.esp
-  group: UF Ordered
-  after:
-  - TTWMoreMapMarkers.esp
-- name: Universal Water Bottling.esp
-  group: UF Ordered
-  after:
-  - Bypass Tools.esp
-- name: JIP Companions Command & Control.esp
-  group: UF Ordered
-  after:
-  - Universal Water Bottling.esp
-- name: DSJIPCCCAnims.esp
-  group: UF Ordered
-  after:
-  - JIP Companions Command & Control.esp
-- name: JustAssortedMods.esp
-  group: UF Ordered
-  after:
-  - DSJIPCCCAnims.esp
-- name: B42Descriptions.esp
-  group: UF Ordered
-  after:
-  - JustAssortedMods.esp
-- name: UF QuickSelect.esp
-  group: UF Ordered
-  after:
-  - B42Descriptions.esp
-- name: Advanced 3rd Person Camera.esp
-  group: UF Ordered
-  after:
-  - UF QuickSelect.esp
-- name: Mojave Raiders.esp
-  group: UF Ordered
-  after:
-  - Advanced 3rd Person Camera.esp
-- name: Mojave Reputation TTW.esp
-  group: UF Ordered
-  after:
-  - Mojave Raiders.esp
-- name: Vanilla UI Plus.esp
-  group: UF Ordered
-  after:
-  - Mojave Reputation TTW.esp
-- name: PipBoyCounters.esp
-  group: UF Ordered
-  after:
-  - Vanilla UI Plus.esp
-- name: DelayDLCRedux.esp
-  group: UF Ordered
-  after:
-  - PipBoyCounters.esp
-- name: AmmoScriptFixes.esp
-  group: UF Ordered
-  after:
-  - DelayDLCRedux.esp
-- name: WeaponRequirementSystem.esp
-  group: UF Ordered
-  after:
-  - AmmoScriptFixes.esp
-- name: Tweaks TTW Outcast Rebalance.esp
-  group: UF Ordered
-  after:
-  - WeaponRequirementSystem.esp
-- name: Mrhouseassasins.esp
-  group: UF Ordered
-  after:
-  - Tweaks TTW Outcast Rebalance.esp
-- name: CharismaAffectsReputation.esp
-  group: UF Ordered
-  after:
-  - Mrhouseassasins.esp
-- name: TTW Quick NV Train Start.esp
-  group: UF Ordered
-  after:
-  - CharismaAffectsReputation.esp
-- name: Sweet Scarcity.esp
-  group: UF Ordered
-  after:
-  - TTW Quick NV Train Start.esp
-- name: Companion Characteristics.esp
-  group: UF Ordered
-  after:
-  - Sweet Scarcity.esp
-- name: Alt Overencumbrance.esp
-  group: UF Ordered
-  after:
-  - Companion Characteristics.esp
-- name: RAD.esp
-  group: UF Ordered
-  after:
-  - Alt Overencumbrance.esp
-- name: EDGE TTW.esp
-  group: UF Ordered
-  after:
-  - RAD.esp
-- name: New Blood.esp
-  group: UF Ordered
-  after:
-  - EDGE TTW.esp
-- name: Reload Reloaded.esp
-  group: UF Ordered
-  after:
-  - New Blood.esp
-- name: DynamicDetectionSystem.esp
-  group: UF Ordered
-  after:
-  - Reload Reloaded.esp
-- name: S6S Base Game Perks Redux.esp
-  group: UF Ordered
-  after:
-  - DynamicDetectionSystem.esp
-- name: S6S Base Game Perks Redux TTW Side.esp
-  group: UF Ordered
-  after:
-  - S6S Base Game Perks Redux.esp
-- name: S6S Perks.esp
-  group: UF Ordered
-  after:
-  - S6S Base Game Perks Redux TTW Side.esp
-- name: New Blood TTW Patch.esp
-  group: UF Ordered
-  after:
-  - S6S Perks.esp
-- name: Vegas Elysium.esp
-  group: UF Ordered
-  after:
-  - New Blood TTW Patch.esp
-- name: Healing Systems.esp
-  group: UF Ordered
-  after:
-  - Vegas Elysium.esp
-- name: Skill Items.esp
-  group: UF Ordered
-  after:
-  - Healing Systems.esp
-- name: SMAC - Simple Melee Attack Cancel and Parry.esp
-  group: UF Ordered
-  after:
-  - Skill Items.esp
-- name: ImmersivePickupSoundsRemastered.esp
-  group: UF Ordered
-  after:
-  - SMAC - Simple Melee Attack Cancel and Parry.esp
-- name: TacticalADSPlusFX.esp
-  group: UF Ordered
-  after:
-  - ImmersivePickupSoundsRemastered.esp
-- name: ' hz_Empty Clicks.esp'
-  group: UF Ordered
-  after:
-  - TacticalADSPlusFX.esp
-- name: Project Reality Footsteps.esp
-  group: UF Ordered
-  after:
-  - ' hz_Empty Clicks.esp'
-- name: Conelrad 640-1240.esp
-  group: UF Ordered
-  after:
-  - Project Reality Footsteps.esp
-- name: Cowboy Radio - Now with VA.esp
-  group: UF Ordered
-  after:
-  - Conelrad 640-1240.esp
-- name: Capital Ruins for TTW.esp
-  group: UF Ordered
-  after:
-  - Cowboy Radio - Now with VA.esp
-- name: AGE - Anchorage Gear Extension.esp
-  group: UF Ordered
-  after:
-  - Capital Ruins for TTW.esp
-- name: DMT _Dead Money Tweaks_.esp
-  group: UF Ordered
-  after:
-  - AGE - Anchorage Gear Extension.esp
-- name: DMT TTW Patch.esp
-  group: UF Ordered
-  after:
-  - DMT _Dead Money Tweaks_.esp
-- name: Another Ghoul Variant Mod.esp
-  group: UF Ordered
-  after:
-  - DMT TTW Patch.esp
-- name: IlluminatedVillaBuildingsOnly.esp
-  group: UF Ordered
-  after:
-  - Another Ghoul Variant Mod.esp
-- name: STDG.esp
-  group: UF Ordered
-  after:
-  - IlluminatedVillaBuildingsOnly.esp
-- name: SFX.esp
-  group: UF Ordered
-  after:
-  - STDG.esp
-- name: DAVE.esp
-  group: UF Ordered
-  after:
-  - SFX.esp
-- name: LumenSkinnedTTW.esp
-  group: UF Ordered
-  after:
-  - DAVE.esp
-- name: TTW - Energy Visuals Plus.esp
-  group: UF Ordered
-  after:
-  - LumenSkinnedTTW.esp
-- name: ATMOS Sound Overhaul - TTW.esp
-  group: UF Ordered
-  after:
-  - TTW - Energy Visuals Plus.esp
-- name: Titans of The New West.esp
-  group: UF Ordered
-  after:
-  - ATMOS Sound Overhaul - TTW.esp
-- name: Enhanced Movement.esp
-  group: UF Ordered
-  after:
-  - Titans of The New West.esp
-- name: UFNPCs.esp
-  group: UF Ordered
-  after:
-  - Enhanced Movement.esp
-- name: UF.esp
-  group: UF Ordered
-  after:
-  - UFNPCs.esp
-- name: ApocalypticStorms.esp
-  group: UF Ordered
-  after:
-  - UF.esp
-- name: DNWeathers.esp
-  group: UF Ordered
-  after:
-  - ApocalypticStorms.esp
-- name: NeutralWeathers_TTW.esp
-  group: UF Ordered
-  after:
-  - DNWeathers.esp
-- name: UF Weather.esp
-  group: UF Ordered
-  after:
-  - NeutralWeathers_TTW.esp
-- name: Cartographer.esp
-  group: UF Ordered
-  after:
-  - UF Weather.esp
-- name: Uranium Haze Piplight.esp
-  group: UF Ordered
-  after:
-  - Cartographer.esp
-
-
+- name: "FalloutNV.esm"
+  group: "UF Ordered"
+- name: "DeadMoney.esm"
+  group: "UF Ordered"
+  after:
+  - "FalloutNV.esm"
+- name: "HonestHearts.esm"
+  group: "UF Ordered"
+  after:
+  - "DeadMoney.esm"
+- name: "OldWorldBlues.esm"
+  group: "UF Ordered"
+  after:
+  - "HonestHearts.esm"
+- name: "LonesomeRoad.esm"
+  group: "UF Ordered"
+  after:
+  - "OldWorldBlues.esm"
+- name: "GunRunnersArsenal.esm"
+  group: "UF Ordered"
+  after:
+  - "LonesomeRoad.esm"
+- name: "Fallout3.esm"
+  group: "UF Ordered"
+  after:
+  - "GunRunnersArsenal.esm"
+- name: "Anchorage.esm"
+  group: "UF Ordered"
+  after:
+  - "Fallout3.esm"
+- name: "ThePitt.esm"
+  group: "UF Ordered"
+  after:
+  - "Anchorage.esm"
+- name: "BrokenSteel.esm"
+  group: "UF Ordered"
+  after:
+  - "ThePitt.esm"
+- name: "PointLookout.esm"
+  group: "UF Ordered"
+  after:
+  - "BrokenSteel.esm"
+- name: "Zeta.esm"
+  group: "UF Ordered"
+  after:
+  - "PointLookout.esm"
+- name: "CaravanPack.esm"
+  group: "UF Ordered"
+  after:
+  - "Zeta.esm"
+- name: "ClassicPack.esm"
+  group: "UF Ordered"
+  after:
+  - "CaravanPack.esm"
+- name: "MercenaryPack.esm"
+  group: "UF Ordered"
+  after:
+  - "ClassicPack.esm"
+- name: "TribalPack.esm"
+  group: "UF Ordered"
+  after:
+  - "MercenaryPack.esm"
+- name: "TaleOfTwoWastelands.esm"
+  group: "UF Ordered"
+  after:
+  - "TribalPack.esm"
+- name: "YUPTTW.esm"
+  group: "UF Ordered"
+  after:
+  - "TaleOfTwoWastelands.esm"
+- name: "TaleOfTwoLandscapes.esm"
+  group: "UF Ordered"
+  after:
+  - "YUPTTW.esm"
+- name: "Landscape Texture Improvements TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "TaleOfTwoLandscapes.esm"
+- name: "NavmeshOverhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "Landscape Texture Improvements TTW.esm"
+- name: "PerformanceOfTheTitans.esm"
+  group: "UF Ordered"
+  after:
+  - "NavmeshOverhaul.esm"
+- name: "Placement Fixes.esm"
+  group: "UF Ordered"
+  after:
+  - "PerformanceOfTheTitans.esm"
+- name: "Follower Formula Redone.esp"
+  group: "UF Ordered"
+  after:
+  - "Placement Fixes.esm"
+- name: "Vanilla Enhancements.esm"
+  group: "UF Ordered"
+  after:
+  - "Follower Formula Redone.esp"
+- name: "DLC Enhancements.esp"
+  group: "UF Ordered"
+  after:
+  - "Vanilla Enhancements.esm"
+- name: "TGDCIO.esm"
+  group: "UF Ordered"
+  after:
+  - "DLC Enhancements.esp"
+- name: "TGMIO.esm"
+  group: "UF Ordered"
+  after:
+  - "TGDCIO.esm"
+- name: "Functional Post Game Ending.esm"
+  group: "UF Ordered"
+  after:
+  - "TGMIO.esm"
+- name: "Goodies.esp"
+  group: "UF Ordered"
+  after:
+  - "Functional Post Game Ending.esm"
+- name: "TLD_Travelers.esm"
+  group: "UF Ordered"
+  after:
+  - "Goodies.esp"
+- name: "Mojave Scenery Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "TLD_Travelers.esm"
+- name: "Capital Wasteland Landscape.esp"
+  group: "UF Ordered"
+  after:
+  - "Mojave Scenery Overhaul.esm"
+- name: "FR-IBS.esm"
+  group: "UF Ordered"
+  after:
+  - "Capital Wasteland Landscape.esp"
+- name: "Girdershade Reborn TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "FR-IBS.esm"
+- name: "RRTV_FO3_CapitalWasteland_Hideouts_TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "Girdershade Reborn TTW.esm"
+- name: "AnotherInteriorMod.esm"
+  group: "UF Ordered"
+  after:
+  - "RRTV_FO3_CapitalWasteland_Hideouts_TTW.esm"
+- name: "The Megaton Walkway - TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "AnotherInteriorMod.esm"
+- name: "DCStreet.esm"
+  group: "UF Ordered"
+  after:
+  - "The Megaton Walkway - TTW.esm"
+- name: "SSTImprovedPipeline.esm"
+  group: "UF Ordered"
+  after:
+  - "DCStreet.esm"
+- name: "SSTMonorailTrackFix.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTImprovedPipeline.esm"
+- name: "SSTWastelandDecay.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTMonorailTrackFix.esm"
+- name: "SSTMegatonOutskirts.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTWastelandDecay.esm"
+- name: "SSTShantyArefu.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTMegatonOutskirts.esm"
+- name: "SSTScrapyardServiceBuildings.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTShantyArefu.esm"
+- name: "SSTDCMetropolis.esp"
+  group: "UF Ordered"
+  after:
+  - "SSTScrapyardServiceBuildings.esm"
+- name: "SSTRockbreakersQuarry.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTDCMetropolis.esp"
+- name: "TTW Northern Greenery.esp"
+  group: "UF Ordered"
+  after:
+  - "SSTRockbreakersQuarry.esm"
+- name: "Zion landscape enhanced.esp"
+  group: "UF Ordered"
+  after:
+  - "TTW Northern Greenery.esp"
+- name: "urbanoverhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "Zion landscape enhanced.esp"
+- name: "Lived-In AIO.esm"
+  group: "UF Ordered"
+  after:
+  - "urbanoverhaul.esp"
+- name: "nellisAFBrestored.esp"
+  group: "UF Ordered"
+  after:
+  - "Lived-In AIO.esm"
+- name: "Less Empty Nellis.esp"
+  group: "UF Ordered"
+  after:
+  - "nellisAFBrestored.esp"
+- name: "Lime's Fort Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "Less Empty Nellis.esp"
+- name: "Lime's Sniper's Nest.esm"
+  group: "UF Ordered"
+  after:
+  - "Lime's Fort Overhaul.esm"
+- name: "Lime's Old Mormon Fort Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "Lime's Sniper's Nest.esm"
+- name: "Fort_Open.esm"
+  group: "UF Ordered"
+  after:
+  - "Lime's Old Mormon Fort Overhaul.esm"
+- name: "HiddenValleyOverhauled.esm"
+  group: "UF Ordered"
+  after:
+  - "Fort_Open.esm"
+- name: "Doctor's House.esm"
+  group: "UF Ordered"
+  after:
+  - "HiddenValleyOverhauled.esm"
+- name: "Interiors Improved - Tops Hotel.esp"
+  group: "UF Ordered"
+  after:
+  - "Doctor's House.esm"
+- name: "LN_BetterBasesKings.esp"
+  group: "UF Ordered"
+  after:
+  - "Interiors Improved - Tops Hotel.esp"
+- name: "The Sink Redesigned TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "LN_BetterBasesKings.esp"
+- name: "GRA_Weapons_Displayed.esm"
+  group: "UF Ordered"
+  after:
+  - "The Sink Redesigned TTW.esm"
+- name: "VanGraffOverhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "GRA_Weapons_Displayed.esm"
+- name: "Vault 21 Unbadene.esm"
+  group: "UF Ordered"
+  after:
+  - "VanGraffOverhaul.esm"
+- name: "Vikki and Vance Improvements.esm"
+  group: "UF Ordered"
+  after:
+  - "Vault 21 Unbadene.esm"
+- name: "Lucky38Overhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "Vikki and Vance Improvements.esm"
+- name: "Simple Freeside Overhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "Lucky38Overhaul.esp"
+- name: "Simple Populated Freeside - Lite - Vanilla.esp"
+  group: "UF Ordered"
+  after:
+  - "Simple Freeside Overhaul.esp"
+- name: "MoreFreesidePassages.esm"
+  group: "UF Ordered"
+  after:
+  - "Simple Populated Freeside - Lite - Vanilla.esp"
+- name: "TheThornOverhauled.esm"
+  group: "UF Ordered"
+  after:
+  - "MoreFreesidePassages.esm"
+- name: "The Town of Vice - A Gomorrah Overhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "TheThornOverhauled.esm"
+- name: "vault22FloralOverhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "The Town of Vice - A Gomorrah Overhaul.esp"
+- name: "Home and Safehouse Tweaks.esm"
+  group: "UF Ordered"
+  after:
+  - "vault22FloralOverhaul.esm"
+- name: "Little More Lamplight.esp"
+  group: "UF Ordered"
+  after:
+  - "Home and Safehouse Tweaks.esm"
+- name: "Simple Open Strip.esm"
+  group: "UF Ordered"
+  after:
+  - "Little More Lamplight.esp"
+- name: "The Strip - 2023 Lite.esm"
+  group: "UF Ordered"
+  after:
+  - "Simple Open Strip.esm"
+- name: "StripCinematicLighting.esp"
+  group: "UF Ordered"
+  after:
+  - "The Strip - 2023 Lite.esm"
+- name: "StripCinematic_2023Lite.esp"
+  group: "UF Ordered"
+  after:
+  - "StripCinematicLighting.esp"
+- name: "SandyRoads.esp"
+  group: "UF Ordered"
+  after:
+  - "StripCinematic_2023Lite.esp"
+- name: "SomeguySeries.esm"
+  group: "UF Ordered"
+  after:
+  - "SandyRoads.esp"
+- name: "NewVegasBounties.esm"
+  group: "UF Ordered"
+  after:
+  - "SomeguySeries.esm"
+- name: "NewVegasKiller.esm"
+  group: "UF Ordered"
+  after:
+  - "NewVegasBounties.esm"
+- name: "A Trail of Crumbs.esm"
+  group: "UF Ordered"
+  after:
+  - "NewVegasKiller.esm"
+- name: "DryWellsReloaded.esm"
+  group: "UF Ordered"
+  after:
+  - "A Trail of Crumbs.esm"
+- name: "havasublues.esm"
+  group: "UF Ordered"
+  after:
+  - "DryWellsReloaded.esm"
+- name: "ZionTrail.esm"
+  group: "UF Ordered"
+  after:
+  - "havasublues.esm"
+- name: "ZionTrail-NV.esp"
+  group: "UF Ordered"
+  after:
+  - "ZionTrail.esm"
+- name: "Point Lookout Reborn.esm"
+  group: "UF Ordered"
+  after:
+  - "ZionTrail-NV.esp"
+- name: "LLPL - Low Level Point Lookout.esm"
+  group: "UF Ordered"
+  after:
+  - "Point Lookout Reborn.esm"
+- name: "RaceToTheBottom.esm"
+  group: "UF Ordered"
+  after:
+  - "LLPL - Low Level Point Lookout.esm"
+- name: "AutumnLeaves.esp"
+  group: "UF Ordered"
+  after:
+  - "RaceToTheBottom.esm"
+- name: "Into The Deep.esm"
+  group: "UF Ordered"
+  after:
+  - "AutumnLeaves.esp"
+- name: "3DNPCFNVBundle.esm"
+  group: "UF Ordered"
+  after:
+  - "Into The Deep.esm"
+- name: "Hope Lies - AiO Improved.esp"
+  group: "UF Ordered"
+  after:
+  - "3DNPCFNVBundle.esm"
+- name: "3DNPCEdits.esp"
+  group: "UF Ordered"
+  after:
+  - "Hope Lies - AiO Improved.esp"
+- name: "Sweet 3DNPC NV Tweaks.esp"
+  group: "UF Ordered"
+  after:
+  - "3DNPCEdits.esp"
+- name: "UncannyValleyResearch.esp"
+  group: "UF Ordered"
+  after:
+  - "Sweet 3DNPC NV Tweaks.esp"
+- name: "AWorldOfPainFO3.esm"
+  group: "UF Ordered"
+  after:
+  - "UncannyValleyResearch.esp"
+- name: "Sweet Pain.esm"
+  group: "UF Ordered"
+  after:
+  - "AWorldOfPainFO3.esm"
+- name: "A World of Pain FO3 Roombound Project.esm"
+  group: "UF Ordered"
+  after:
+  - "Sweet Pain.esm"
+- name: "A World of Pain Revised.esm"
+  group: "UF Ordered"
+  after:
+  - "A World of Pain FO3 Roombound Project.esm"
+- name: "Sweet Pain NV.esm"
+  group: "UF Ordered"
+  after:
+  - "A World of Pain Revised.esm"
+- name: "A World of Pain NV Roombound Project.esm"
+  group: "UF Ordered"
+  after:
+  - "Sweet Pain NV.esm"
+- name: "GRARG.esm"
+  group: "UF Ordered"
+  after:
+  - "A World of Pain NV Roombound Project.esm"
+- name: "EDGE TTW.esm"
+  group: "UF Ordered"
+  after:
+  - "GRARG.esm"
+- name: "DMT _Dead Money Tweaks_.esm"
+  group: "UF Ordered"
+  after:
+  - "EDGE TTW.esm"
+- name: "Big Town Extensions.esm"
+  group: "UF Ordered"
+  after:
+  - "DMT _Dead Money Tweaks_.esm"
+- name: "Reactive Primm.esm"
+  group: "UF Ordered"
+  after:
+  - "Big Town Extensions.esm"
+- name: "MMDD.esm"
+  group: "UF Ordered"
+  after:
+  - "Reactive Primm.esm"
+- name: "Windows of the Mojave v1.2.1.esp"
+  group: "UF Ordered"
+  after:
+  - "MMDD.esm"
+- name: "D.C NPCs.esm"
+  group: "UF Ordered"
+  after:
+  - "Windows of the Mojave v1.2.1.esp"
+- name: "TTWCaravanInDCFixed.esp"
+  group: "UF Ordered"
+  after:
+  - "D.C NPCs.esm"
+- name: "Faction Wasteland Presence.esm"
+  group: "UF Ordered"
+  after:
+  - "TTWCaravanInDCFixed.esp"
+- name: "FO3_Optimization.esm"
+  group: "UF Ordered"
+  after:
+  - "Faction Wasteland Presence.esm"
+- name: "TweaksTTW.esm"
+  group: "UF Ordered"
+  after:
+  - "FO3_Optimization.esm"
+- name: "TTW Reputations.esm"
+  group: "UF Ordered"
+  after:
+  - "TweaksTTW.esm"
+- name: "TTW New Vegas Speech Checks.esm"
+  group: "UF Ordered"
+  after:
+  - "TTW Reputations.esm"
+- name: "Tale of Bi Wastelands.esm"
+  group: "UF Ordered"
+  after:
+  - "TTW New Vegas Speech Checks.esm"
+- name: "AGE - Anchorage Gear Extension.esm"
+  group: "UF Ordered"
+  after:
+  - "Tale of Bi Wastelands.esm"
+- name: "Double Integrated Creation Kit.esp"
+  group: "UF Ordered"
+  after:
+  - "AGE - Anchorage Gear Extension.esm"
+- name: "MegatonHouseTrophies.esp"
+  group: "UF Ordered"
+  after:
+  - "Double Integrated Creation Kit.esp"
+- name: "LincolnDisplay.esp"
+  group: "UF Ordered"
+  after:
+  - "MegatonHouseTrophies.esp"
+- name: "Bobblehead Business.esp"
+  group: "UF Ordered"
+  after:
+  - "LincolnDisplay.esp"
+- name: "FEV.esm"
+  group: "UF Ordered"
+  after:
+  - "Bobblehead Business.esp"
+- name: "Sweet Bounties.esp"
+  group: "UF Ordered"
+  after:
+  - "FEV.esm"
+- name: "Mojave Raiders.esm"
+  group: "UF Ordered"
+  after:
+  - "Sweet Bounties.esp"
+- name: "Mojave Wildlife (FO3-Style + No Chanced).esp"
+  group: "UF Ordered"
+  after:
+  - "Mojave Raiders.esm"
+- name: "Harder New Vegas Strip Access.esm"
+  group: "UF Ordered"
+  after:
+  - "Mojave Wildlife (FO3-Style + No Chanced).esp"
+- name: "Friendly Strip Factions.esm"
+  group: "UF Ordered"
+  after:
+  - "Harder New Vegas Strip Access.esm"
+- name: "Better Brotherhood.esm"
+  group: "UF Ordered"
+  after:
+  - "Friendly Strip Factions.esm"
+- name: "TTW NPC Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "Better Brotherhood.esm"
+- name: "BraveNewWorld.esm"
+  group: "UF Ordered"
+  after:
+  - "TTW NPC Overhaul.esm"
+- name: "Banter.esp"
+  group: "UF Ordered"
+  after:
+  - "BraveNewWorld.esm"
+- name: "TTW Dialogue and Interactions Expansion Overhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "Banter.esp"
+- name: "Sierra Madre Suite Windows.esp"
+  group: "UF Ordered"
+  after:
+  - "TTW Dialogue and Interactions Expansion Overhaul.esp"
+- name: "SSTRemasteredQuarries.esm"
+  group: "UF Ordered"
+  after:
+  - "Sierra Madre Suite Windows.esp"
+- name: "FreePostMojave.esm"
+  group: "UF Ordered"
+  after:
+  - "SSTRemasteredQuarries.esm"
+- name: "TTW Skill Book Rebalance.esp"
+  group: "UF Ordered"
+  after:
+  - "FreePostMojave.esm"
+- name: "Bad Touch.esm"
+  group: "UF Ordered"
+  after:
+  - "TTW Skill Book Rebalance.esp"
+- name: "[RWM]-Complete Added.esp"
+  group: "UF Ordered"
+  after:
+  - "Bad Touch.esm"
+- name: "LegionRadio.esp"
+  group: "UF Ordered"
+  after:
+  - "[RWM]-Complete Added.esp"
+- name: "TTW Music Addition - No RNV.esp"
+  group: "UF Ordered"
+  after:
+  - "LegionRadio.esp"
+- name: "AfterglowNeonIllumination.esp"
+  group: "UF Ordered"
+  after:
+  - "TTW Music Addition - No RNV.esp"
+- name: "ExRB-TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "AfterglowNeonIllumination.esp"
+- name: "Securitrons On Alert.esm"
+  group: "UF Ordered"
+  after:
+  - "ExRB-TTW.esp"
+- name: "Another Creature Add-on.esp"
+  group: "UF Ordered"
+  after:
+  - "Securitrons On Alert.esm"
+- name: "Robot Dog Overhaul TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "Another Creature Add-on.esp"
+- name: "NVMMP.esp"
+  group: "UF Ordered"
+  after:
+  - "Robot Dog Overhaul TTW.esp"
+- name: "Stinger.esp"
+  group: "UF Ordered"
+  after:
+  - "NVMMP.esp"
+- name: "Sweet Consumables.esp"
+  group: "UF Ordered"
+  after:
+  - "Stinger.esp"
+- name: "Aid Addon.esp"
+  group: "UF Ordered"
+  after:
+  - "Sweet Consumables.esp"
+- name: "Vanilla SWEEP.esp"
+  group: "UF Ordered"
+  after:
+  - "Aid Addon.esp"
+- name: "SPARE.esp"
+  group: "UF Ordered"
+  after:
+  - "Vanilla SWEEP.esp"
+- name: "STAR TTW 2.esp"
+  group: "UF Ordered"
+  after:
+  - "SPARE.esp"
+- name: "UF ZT Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "STAR TTW 2.esp"
+- name: "OWB Remove player gear.esp"
+  group: "UF Ordered"
+  after:
+  - "UF ZT Overhaul.esm"
+- name: "DC Humbles You.esm"
+  group: "UF Ordered"
+  after:
+  - "OWB Remove player gear.esp"
+- name: "Benny Humbles You and Steals Your Stuff.esp"
+  group: "UF Ordered"
+  after:
+  - "DC Humbles You.esm"
+- name: "Better Weapon Restrictions & Fixes.esm"
+  group: "UF Ordered"
+  after:
+  - "Benny Humbles You and Steals Your Stuff.esp"
+- name: "PointThatSomewhereElse!.esm"
+  group: "UF Ordered"
+  after:
+  - "Better Weapon Restrictions & Fixes.esm"
+- name: "Off Limits.esp"
+  group: "UF Ordered"
+  after:
+  - "PointThatSomewhereElse!.esm"
+- name: "UF Quick Start.esp"
+  group: "UF Ordered"
+  after:
+  - "Off Limits.esp"
+- name: "UF Wasteland Starting Gear DC.esp"
+  group: "UF Ordered"
+  after:
+  - "UF Quick Start.esp"
+- name: "Walking_Inertia.esm"
+  group: "UF Ordered"
+  after:
+  - "UF Wasteland Starting Gear DC.esp"
+- name: "Helmet Overlay.esm"
+  group: "UF Ordered"
+  after:
+  - "Walking_Inertia.esm"
+- name: "Main And Pause Menus Overhaul.esm"
+  group: "UF Ordered"
+  after:
+  - "Helmet Overlay.esm"
+- name: "LowAmmoWarningSounds.esm"
+  group: "UF Ordered"
+  after:
+  - "Main And Pause Menus Overhaul.esm"
+- name: "ATMOS Ambient Overhaul.esp"
+  group: "UF Ordered"
+  after:
+  - "LowAmmoWarningSounds.esm"
+- name: "ATMOS Ambient Overhaul - DLC.esp"
+  group: "UF Ordered"
+  after:
+  - "ATMOS Ambient Overhaul.esp"
+- name: "ATMOS Ambient Overhaul - AWOP Revision.esp"
+  group: "UF Ordered"
+  after:
+  - "ATMOS Ambient Overhaul - DLC.esp"
+- name: "Better Strip View.esp"
+  group: "UF Ordered"
+  after:
+  - "ATMOS Ambient Overhaul - AWOP Revision.esp"
+- name: "Strip Lights Region Fix.esp"
+  group: "UF Ordered"
+  after:
+  - "Better Strip View.esp"
+- name: "Lucky38ExtRemasterNew.esp"
+  group: "UF Ordered"
+  after:
+  - "Strip Lights Region Fix.esp"
+- name: "UF Tutorial.esm"
+  group: "UF Ordered"
+  after:
+  - "Lucky38ExtRemasterNew.esp"
+- name: "TaleOfTwoLandscapesPatch.esp"
+  group: "UF Ordered"
+  after:
+  - "UF Tutorial.esm"
+- name: "UFNM.esm"
+  group: "UF Ordered"
+  after:
+  - "TaleOfTwoLandscapesPatch.esp"
+- name: "UF.esm"
+  group: "UF Ordered"
+  after:
+  - "UFNM.esm"
+- name: "The Mod Configuration Menu.esp"
+  group: "UF Ordered"
+  after:
+  - "UF.esm"
+- name: "TTWMoreMapMarkers.esp"
+  group: "UF Ordered"
+  after:
+  - "The Mod Configuration Menu.esp"
+- name: "Bypass Tools.esp"
+  group: "UF Ordered"
+  after:
+  - "TTWMoreMapMarkers.esp"
+- name: "Universal Water Bottling.esp"
+  group: "UF Ordered"
+  after:
+  - "Bypass Tools.esp"
+- name: "JIP Companions Command & Control.esp"
+  group: "UF Ordered"
+  after:
+  - "Universal Water Bottling.esp"
+- name: "DSJIPCCCAnims.esp"
+  group: "UF Ordered"
+  after:
+  - "JIP Companions Command & Control.esp"
+- name: "JustAssortedMods.esp"
+  group: "UF Ordered"
+  after:
+  - "DSJIPCCCAnims.esp"
+- name: "B42Descriptions.esp"
+  group: "UF Ordered"
+  after:
+  - "JustAssortedMods.esp"
+- name: "UF QuickSelect.esp"
+  group: "UF Ordered"
+  after:
+  - "B42Descriptions.esp"
+- name: "Advanced 3rd Person Camera.esp"
+  group: "UF Ordered"
+  after:
+  - "UF QuickSelect.esp"
+- name: "Mojave Raiders.esp"
+  group: "UF Ordered"
+  after:
+  - "Advanced 3rd Person Camera.esp"
+- name: "Mojave Reputation TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "Mojave Raiders.esp"
+- name: "Vanilla UI Plus.esp"
+  group: "UF Ordered"
+  after:
+  - "Mojave Reputation TTW.esp"
+- name: "PipBoyCounters.esp"
+  group: "UF Ordered"
+  after:
+  - "Vanilla UI Plus.esp"
+- name: "DelayDLCRedux.esp"
+  group: "UF Ordered"
+  after:
+  - "PipBoyCounters.esp"
+- name: "AmmoScriptFixes.esp"
+  group: "UF Ordered"
+  after:
+  - "DelayDLCRedux.esp"
+- name: "WeaponRequirementSystem.esp"
+  group: "UF Ordered"
+  after:
+  - "AmmoScriptFixes.esp"
+- name: "Tweaks TTW Outcast Rebalance.esp"
+  group: "UF Ordered"
+  after:
+  - "WeaponRequirementSystem.esp"
+- name: "Mrhouseassasins.esp"
+  group: "UF Ordered"
+  after:
+  - "Tweaks TTW Outcast Rebalance.esp"
+- name: "CharismaAffectsReputation.esp"
+  group: "UF Ordered"
+  after:
+  - "Mrhouseassasins.esp"
+- name: "TTW Quick NV Train Start.esp"
+  group: "UF Ordered"
+  after:
+  - "CharismaAffectsReputation.esp"
+- name: "Sweet Scarcity.esp"
+  group: "UF Ordered"
+  after:
+  - "TTW Quick NV Train Start.esp"
+- name: "Companion Characteristics.esp"
+  group: "UF Ordered"
+  after:
+  - "Sweet Scarcity.esp"
+- name: "Alt Overencumbrance.esp"
+  group: "UF Ordered"
+  after:
+  - "Companion Characteristics.esp"
+- name: "RAD.esp"
+  group: "UF Ordered"
+  after:
+  - "Alt Overencumbrance.esp"
+- name: "EDGE TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "RAD.esp"
+- name: "New Blood.esp"
+  group: "UF Ordered"
+  after:
+  - "EDGE TTW.esp"
+- name: "Reload Reloaded.esp"
+  group: "UF Ordered"
+  after:
+  - "New Blood.esp"
+- name: "DynamicDetectionSystem.esp"
+  group: "UF Ordered"
+  after:
+  - "Reload Reloaded.esp"
+- name: "S6S Base Game Perks Redux.esp"
+  group: "UF Ordered"
+  after:
+  - "DynamicDetectionSystem.esp"
+- name: "S6S Base Game Perks Redux TTW Side.esp"
+  group: "UF Ordered"
+  after:
+  - "S6S Base Game Perks Redux.esp"
+- name: "S6S Perks.esp"
+  group: "UF Ordered"
+  after:
+  - "S6S Base Game Perks Redux TTW Side.esp"
+- name: "New Blood TTW Patch.esp"
+  group: "UF Ordered"
+  after:
+  - "S6S Perks.esp"
+- name: "Vegas Elysium.esp"
+  group: "UF Ordered"
+  after:
+  - "New Blood TTW Patch.esp"
+- name: "Healing Systems.esp"
+  group: "UF Ordered"
+  after:
+  - "Vegas Elysium.esp"
+- name: "Skill Items.esp"
+  group: "UF Ordered"
+  after:
+  - "Healing Systems.esp"
+- name: "SMAC - Simple Melee Attack Cancel and Parry.esp"
+  group: "UF Ordered"
+  after:
+  - "Skill Items.esp"
+- name: "ImmersivePickupSoundsRemastered.esp"
+  group: "UF Ordered"
+  after:
+  - "SMAC - Simple Melee Attack Cancel and Parry.esp"
+- name: "TacticalADSPlusFX.esp"
+  group: "UF Ordered"
+  after:
+  - "ImmersivePickupSoundsRemastered.esp"
+- name: " hz_Empty Clicks.esp"
+  group: "UF Ordered"
+  after:
+  - "TacticalADSPlusFX.esp"
+- name: "Project Reality Footsteps.esp"
+  group: "UF Ordered"
+  after:
+  - " hz_Empty Clicks.esp"
+- name: "Conelrad 640-1240.esp"
+  group: "UF Ordered"
+  after:
+  - "Project Reality Footsteps.esp"
+- name: "Cowboy Radio - Now with VA.esp"
+  group: "UF Ordered"
+  after:
+  - "Conelrad 640-1240.esp"
+- name: "Capital Ruins for TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "Cowboy Radio - Now with VA.esp"
+- name: "AGE - Anchorage Gear Extension.esp"
+  group: "UF Ordered"
+  after:
+  - "Capital Ruins for TTW.esp"
+- name: "DMT _Dead Money Tweaks_.esp"
+  group: "UF Ordered"
+  after:
+  - "AGE - Anchorage Gear Extension.esp"
+- name: "DMT TTW Patch.esp"
+  group: "UF Ordered"
+  after:
+  - "DMT _Dead Money Tweaks_.esp"
+- name: "Another Ghoul Variant Mod.esp"
+  group: "UF Ordered"
+  after:
+  - "DMT TTW Patch.esp"
+- name: "IlluminatedVillaBuildingsOnly.esp"
+  group: "UF Ordered"
+  after:
+  - "Another Ghoul Variant Mod.esp"
+- name: "STDG.esp"
+  group: "UF Ordered"
+  after:
+  - "IlluminatedVillaBuildingsOnly.esp"
+- name: "SFX.esp"
+  group: "UF Ordered"
+  after:
+  - "STDG.esp"
+- name: "DAVE.esp"
+  group: "UF Ordered"
+  after:
+  - "SFX.esp"
+- name: "LumenSkinnedTTW.esp"
+  group: "UF Ordered"
+  after:
+  - "DAVE.esp"
+- name: "TTW - Energy Visuals Plus.esp"
+  group: "UF Ordered"
+  after:
+  - "LumenSkinnedTTW.esp"
+- name: "ATMOS Sound Overhaul - TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "TTW - Energy Visuals Plus.esp"
+- name: "Titans of The New West.esp"
+  group: "UF Ordered"
+  after:
+  - "ATMOS Sound Overhaul - TTW.esp"
+- name: "Enhanced Movement.esp"
+  group: "UF Ordered"
+  after:
+  - "Titans of The New West.esp"
+- name: "UFNPCs.esp"
+  group: "UF Ordered"
+  after:
+  - "Enhanced Movement.esp"
+- name: "UF.esp"
+  group: "UF Ordered"
+  after:
+  - "UFNPCs.esp"
+- name: "ApocalypticStorms.esp"
+  group: "UF Ordered"
+  after:
+  - "UF.esp"
+- name: "DNWeathers.esp"
+  group: "UF Ordered"
+  after:
+  - "ApocalypticStorms.esp"
+- name: "NeutralWeathers_TTW.esp"
+  group: "UF Ordered"
+  after:
+  - "DNWeathers.esp"
+- name: "UF Weather.esp"
+  group: "UF Ordered"
+  after:
+  - "NeutralWeathers_TTW.esp"
+- name: "Cartographer.esp"
+  group: "UF Ordered"
+  after:
+  - "UF Weather.esp"
+- name: "Uranium Haze Piplight.esp"
+  group: "UF Ordered"
+  after:
+  - "Cartographer.esp"
